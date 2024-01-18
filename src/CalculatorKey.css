@@ -1,0 +1,34 @@
+
+.keypad button {
+    display: table-cell;
+    width: 25%;
+    background: #425062;
+    color: #fff;
+    height: 100px;
+    font-size: 2rem;
+    border: none;
+    border-color: #3C4857;
+    border-width: 2px 2px 0px 0;
+    border-style: solid;
+  }
+  
+  .keypad button.ac {
+    color: #ff7665;
+  }
+  
+  .keypad button.opt {
+    color: #ffbc56;
+  }
+  
+  .keypad button:active {
+    position: relative;
+    top: 1px;
+  }
+  
+  .keypad button:hover {
+    background: #3e4b5c;
+    font-size: 2.5rem;
+    border-color: #5f9ea0;
+    border-width: 2px 2px 2px 2px;
+  }
+  
